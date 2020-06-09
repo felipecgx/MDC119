@@ -1,15 +1,16 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {
 
     FILE *arq;
 
-    arq = fopen("/home/felipe/MDC119/Atividades/Atividade06/arquivoBIN.bin", "wb");
+    arq = fopen("/home/felipe/MDC119/Atividades/Atividade06/Dados.bin", "wb");
 
     if (arq == NULL)
     {
-        printf("Erro ao abrir o arquivo");
+        printf("Impossivel abrir o arquivo");
     }
     printf("Pressione uma tecla para finalizar..");
     getchar();

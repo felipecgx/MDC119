@@ -13,7 +13,7 @@ int main()
 
     if (arq == NULL)
     {
-        printf("Erro ao tentar abertura do arquivo\n");
+        printf("Impossivel abrir o arquivo\n");
         return 0;
     }
 

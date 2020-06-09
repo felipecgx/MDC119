@@ -10,7 +10,7 @@ int main()
 
     if (arquivo == NULL)
     {
-        printf("Erro ao abrir o arquivo");
+        printf("Impossivel abrir o arquivo");
     }
     printf("Aperte qualquer tecla para finalizar...");
     getchar();

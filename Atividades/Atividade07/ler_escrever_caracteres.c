@@ -11,7 +11,7 @@ int main()
 
     if (arq == NULL)
     {
-        printf("Problemas na abertura do arquivo\n");
+        printf("Impossivel abrir o arquivo\n");
         return 0;
     }
     printf("matricula \n");
